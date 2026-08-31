@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login | Sweet Crumbs Cake Shop</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="sc-card p-4 p-md-5 shadow-sm" style="max-width: 420px; width: 100%;">
+    <div class="text-center mb-4">
+      <h3 class="sc-section-title mb-1">⚙️ Admin Panel</h3>
+      <p class="sc-section-sub">Sweet Crumbs Management</p>
+    </div>
+    
+    <form onsubmit="event.preventDefault(); alert('Static Demo: PHP and MySQL are required to process actual admin logins.');">
+      <div class="mb-3">
+        <label for="adminUsername" class="form-label fw-medium">Username or Email</label>
+        <input type="text" class="form-control" id="adminUsername" required placeholder="admin">
+      </div>
+      
+      <div class="mb-3">
+        <label for="adminPassword" class="form-label fw-medium">Password</label>
+        <input type="password" class="form-control" id="adminPassword" required placeholder="••••••••">
+      </div>
+      
+      <button type="submit" class="sc-btn-primary w-100 mt-2">Login to Dashboard</button>
+      
+      <div class="text-center mt-4">
+        <a href="index.html" class="small text-muted text-decoration-none">← Back to Sweet Crumbs Main Site</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
